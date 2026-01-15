@@ -41,3 +41,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Replace header in HTML files
+        run: |
+          const fs = require('fs');
+          const files = ['index.html', 'sobre.html']; // lista de arquivos
+          files.forEach(file => {
+            let content = fs.readFileSync(file, 'utf8');
+            content = content.replace('<!-- HEADER -->', fs.readFileSync('header.html', 'utf8'));
+            fs.writeFileSync(file, content);
+          });
