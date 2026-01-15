@@ -97,7 +97,7 @@ Jekyll: ❌ desativado (arquivo .nojekyll obrigatório)
 
 Após o push para main, o site estará disponível em:
 
-https://hermidamaia.github.io
+https://adrianohermida.github.io/repo_hmadv2026/
 
 
 ---
