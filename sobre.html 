@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>Sobre o Escritório | Dr. Adriano Hermida Maia</title>
+  <meta name="description" content="Conheça o escritório do Dr. Adriano Hermida Maia, advocacia estratégica especializada em superendividamento, revisão bancária e direito do consumidor.">
+  <meta name="author" content="Dr. Adriano Hermida Maia">
+
+  <!-- CSS -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="hm-header">
+  <div class="hm-container hm-header-inner">
+    <a href="/" class="hm-brand">
+      <img
+        src="/assets/img/logo.svg"
+        alt="Hermida Maia Advocacia"
+        width="48"
+        height="48"
+        class="hm-logo">
+      <div>
+        <strong>Dr. Adriano Hermida Maia</strong>
+        <span>Defesa do Superendividado</span>
+      </div>
+    </a>
+
+    <nav class="hm-nav">
+      <a href="/">Início</a>
+      <a href="/superendividamento.html">Atuação</a>
+      <a href="/blog/">Conteúdo</a>
+      <a href="/agendamento.html">Agendamento</a>
+      <a href="/contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hm-section hm-section-alt" style="padding-top:160px;">
+  <div class="hm-container" style="max-width:900px; text-align:center;">
+
+    <h1>Sobre o Escritório</h1>
+
+    <p class="hm-section-sub">
+      Advocacia estratégica, humana e técnica, voltada à proteção da dignidade financeira
+      e à defesa efetiva do consumidor e das empresas em situação de crise.
+    </p>
+
+  </div>
+</section>
+
+<!-- ================= CONTEÚDO INSTITUCIONAL ================= -->
+<section class="hm-section">
+  <div class="hm-container" style="max-width:1000px;">
+
+    <h2>Atuação com Propósito e Técnica</h2>
+
+    <p>
+      O escritório do <strong>Dr. Adriano Hermida Maia</strong> atua de forma estratégica e personalizada,
+      com foco na solução de conflitos financeiros complexos, especialmente nas áreas de
+      <strong>superendividamento</strong>, <strong>revisão bancária</strong>, <strong>empréstimos e financiamentos</strong>,
+      <strong>recuperação judicial</strong> e <strong>falência</strong>.
+    </p>
+
+    <p>
+      A atuação é pautada na análise técnica rigorosa dos contratos, na aplicação da legislação vigente
+      — com destaque para a Lei nº 14.181/2021 (Lei do Superendividamento) — e na construção de soluções
+      jurídicas sustentáveis, que preservem o mínimo existencial, a dignidade do cliente e a viabilidade
+      econômica a longo prazo.
+    </p>
+
+  </div>
+</section>
+
+<!-- ================= PILARES ================= -->
+<section class="hm-section hm-section-alt">
+  <div class="hm-container" style="max-width:1100px;">
+
+    <h2>Pilares da Atuação</h2>
+
+    <div class="hm-grid-3">
+
+      <div class="hm-card">
+        <h3>Especialização</h3>
+        <p>
+          Atuação focada em direito bancário, superendividamento e reorganização financeira,
+          com constante atualização técnica e jurídica.
+        </p>
+      </div>
+
+      <div class="hm-card">
+        <h3>Estratégia</h3>
+        <p>
+          Cada caso é analisado de forma individual, com definição de estratégias
+          jurídicas adequadas ao perfil financeiro e aos objetivos do cliente.
+        </p>
+      </div>
+
+      <div class="hm-card">
+        <h3>Transparência</h3>
+        <p>
+          Comunicação clara, ética e objetiva, com total transparência sobre riscos,
+          possibilidades e caminhos jurídicos.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PERFIL PROFISSIONAL ================= -->
+<section class="hm-section">
+  <div class="hm-container" style="max-width:1000px;">
+
+    <h2>Perfil Profissional</h2>
+
+    <p>
+      <strong>Dr. Adriano Menezes Hermida Maia</strong> é advogado, docente e autor, com vasta experiência
+      acadêmica e prática nas áreas de direito do consumidor, direito bancário, processo civil,
+      direito do trabalho e direito tributário.
+    </p>
+
+    <p>
+      Possui pós-graduações em <strong>Crimes Digitais</strong>, <strong>Processo Civil</strong>,
+      <strong>Direito do Trabalho e Processo do Trabalho</strong>, além de <strong>MBA em Contabilidade
+      e Direito Tributário com ênfase em risco fiscal</strong>.
+    </p>
+
+    <p>
+      É autor do livro <em>“Manual do Superendividado”</em> e dedica sua atuação à proteção
+      de pessoas físicas e jurídicas contra abusos contratuais, promovendo a recuperação
+      da saúde financeira com segurança jurídica.
+    </p>
+
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="hm-section hm-section-alt">
+  <div class="hm-container" style="max-width:820px; text-align:center;">
+
+    <h2>Precisa de Orientação Jurídica?</h2>
+    <p class="hm-section-sub">
+      Agende uma consulta e receba uma análise estratégica da sua situação financeira.
+    </p>
+
+    <a
+      href="/agendamento.html"
+      class="hm-btn-primary hm-btn-lg">
+      Agendar Consulta
+    </a>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="hm-footer">
+  <div class="hm-container hm-footer-grid">
+
+    <div>
+      <strong>Dr. Adriano Hermida Maia</strong>
+      <p>Advocacia Estratégica</p>
+    </div>
+
+    <div>
+      <p>📍 Atendimento em todo o Brasil</p>
+      <p>📧 contato@hermidamaia.adv.br</p>
+      <p>📞 (51) 99603-2004</p>
+    </div>
+
+    <div>
+      <p>OAB/RS 10748</p>
+      <p>© 2025</p>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script src="/assets/js/main.js" defer></script>
+
+<!-- FRESHSALES (DELAY PARA PERFORMANCE) -->
+<script>
+  setTimeout(() => {
+    const s = document.createElement('script');
+    s.src = '/integrations/freshsales.js';
+    s.defer = true;
+    document.body.appendChild(s);
+  }, 4000);
+</script>
+
+</body>
+</html>
