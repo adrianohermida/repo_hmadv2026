@@ -2,91 +2,100 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blog Jurídico | Dr. Adriano Hermida Maia</title>
 
-  <meta name="description" content="Artigos jurídicos sobre superendividamento, revisão bancária, empréstimos, financiamentos e recuperação judicial.">
+  <!-- SEO -->
+  <title>Conteúdo Jurídico | Dr. Adriano Hermida Maia</title>
+  <meta name="description" content="Artigos jurídicos sobre superendividamento, direito bancário, revisão de contratos, empréstimos e proteção do consumidor.">
+  <meta name="author" content="Dr. Adriano Hermida Maia">
 
+  <!-- CSS -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
   <link rel="stylesheet" href="/assets/css/style.css">
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-XXXXXXX');
-</script>
-
 </head>
 
 <body>
 
-<!-- HEADER -->
+<!-- ================= HEADER ================= -->
 <header class="hm-header">
   <div class="hm-container hm-header-inner">
     <a href="/" class="hm-brand">
-      <strong>Dr. Adriano Hermida Maia</strong>
-      <span>Advocacia Estratégica</span>
+      <img src="/assets/img/logo.svg" alt="Hermida Maia Advocacia" width="48" height="48" class="hm-logo">
+      <div>
+        <strong>Dr. Adriano Hermida Maia</strong>
+        <span>Defesa do Superendividado</span>
+      </div>
     </a>
+
     <nav class="hm-nav">
       <a href="/">Início</a>
       <a href="/sobre.html">Sobre</a>
       <a href="/superendividamento.html">Atuação</a>
+      <a href="/agendamento.html">Agendamento</a>
       <a href="/contato.html">Contato</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO BLOG -->
+<!-- ================= HERO ================= -->
 <section class="hm-section hm-section-alt" style="padding-top:160px;">
-  <div class="hm-container">
-    <h1>Conteúdo Jurídico Especializado</h1>
+  <div class="hm-container" style="max-width:900px;text-align:center;">
+    <h1>Conteúdo Jurídico</h1>
     <p class="hm-section-sub">
-      Artigos técnicos sobre proteção do consumidor, superendividamento e reestruturação financeira.
+      Artigos técnicos e orientações jurídicas sobre superendividamento,
+      revisão bancária e proteção do consumidor.
     </p>
   </div>
 </section>
 
-<!-- LISTA DE POSTS -->
+<!-- ================= LISTAGEM ================= -->
 <section class="hm-section">
   <div class="hm-container">
-    <div id="blog-list" class="hm-grid-3">
-      <!-- POSTS INSERIDOS VIA JS -->
+
+    <div id="blog-list" class="hm-grid-3" style="min-height:300px;">
+      <!-- Conteúdo inserido via blog.js -->
     </div>
+
   </div>
 </section>
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 <footer class="hm-footer">
   <div class="hm-container hm-footer-grid">
+
     <div>
       <strong>Dr. Adriano Hermida Maia</strong>
       <p>Advocacia Estratégica</p>
     </div>
+
     <div>
+      <p>📍 Atendimento em todo o Brasil</p>
       <p>📧 contato@hermidamaia.adv.br</p>
       <p>📞 (51) 99603-2004</p>
     </div>
+
+    <div>
+      <p>OAB/RS 10748</p>
+      <p>© 2025</p>
+    </div>
+
   </div>
 </footer>
 
-<!-- SCRIPT BLOG -->
+<!-- ================= SCRIPTS ================= -->
 <script src="/blog/posts.js" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  const container = document.getElementById('blog-list');
+<script src="/assets/js/blog.js" defer></script>
+<script src="/assets/js/main.js" defer></script>
 
-  posts.forEach(post => {
-    const article = document.createElement('article');
-    article.className = 'hm-post-card';
-    article.innerHTML = `
-      <h3>${post.titulo}</h3>
-      <p>${post.resumo}</p>
-      <a href="${post.url}">Ler artigo</a>
-    `;
-    container.appendChild(article);
-  });
-});
+<!-- FRESHSALES -->
+<script>
+  setTimeout(() => {
+    const s = document.createElement('script');
+    s.src = '/integrations/freshsales.js';
+    s.defer = true;
+    document.body.appendChild(s);
+  }, 4000);
 </script>
 
 </body>
