@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>Dr. Adriano Hermida Maia | Advocacia Estratégica</title>
+  <meta name="description" content="Advocacia especializada em superendividamento, revisão bancária, empréstimos, financiamentos, recuperação judicial e falência.">
+  <meta name="author" content="Dr. Adriano Hermida Maia">
+
+  <!-- PERFORMANCE -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- HERO IMAGE (LCP) -->
+  <link rel="preload" as="image" href="/assets/img/dr-adriano.webp">
+
+  <!-- GOOGLE ANALYTICS (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="hm-header">
+  <div class="hm-container hm-header-inner">
+    <a href="/" class="hm-brand">
+      <img
+        src="/assets/img/logo.svg"
+        alt="Hermida Maia Advocacia"
+        width="48"
+        height="48"
+        class="hm-logo">
+
+      <div>
+        <strong>Dr. Adriano Hermida Maia</strong>
+        <span>Defesa do Superendividado</span>
+      </div>
+    </a>
+
+    <nav class="hm-nav">
+      <a href="/">Início</a>
+      <a href="/sobre.html">Sobre</a>
+      <a href="/superendividamento.html">Atuação</a>
+      <a href="/blog/">Conteúdo</a>
+      <a href="/contato.html">Contato</a>
+    </nav>
+
+    <a href="https://wa.me/5551996032004" class="hm-btn-primary">
+      Monte Seu Plano
+    </a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hm-hero">
+  <div class="hm-container hm-hero-grid">
+
+    <!-- TEXTO -->
+    <div>
+      <div class="hm-badge">ADVOCACIA DIGITAL ESTRATÉGICA</div>
+
+      <h1>
+        Excelência na<br>
+        <span>Defesa do Consumidor</span>
+      </h1>
+
+      <p class="hm-hero-sub">
+        Atuação estratégica em superendividamento, direito bancário e proteção do mínimo existencial.
+      </p>
+
+      <a href="/contato.html" class="hm-btn-primary hm-btn-lg">
+        FALE COM UM ESPECIALISTA
+      </a>
+    </div>
+
+    <!-- IMAGEM -->
+    <div class="hm-hero-image">
+      <img
+        src="/assets/img/dr-adriano.webp"
+        width="520"
+        height="680"
+        alt="Dr. Adriano Hermida Maia"
+        loading="eager"
+        fetchpriority="high">
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SERVIÇOS ================= -->
+<section class="hm-section">
+  <div class="hm-container">
+    <h2>Áreas de Atuação Estratégica</h2>
+
+    <div class="hm-grid-3">
+      <div class="hm-card">
+        <h3>Superendividamento</h3>
+        <p>Repactuação de dívidas com base na Lei nº 14.181/2021.</p>
+      </div>
+
+      <div class="hm-card">
+        <h3>Revisão Bancária</h3>
+        <p>Análise técnica de contratos e juros abusivos.</p>
+      </div>
+
+      <div class="hm-card">
+        <h3>Recuperação Judicial</h3>
+        <p>Preservação da empresa e reorganização financeira.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ONDE CONCILIAR ================= -->
+<section class="hm-section hm-section-alt">
+  <div class="hm-container">
+    <h2>Onde é possível conciliar</h2>
+    <p class="hm-section-sub">
+      Atuação estratégica em múltiplos cenários de endividamento.
+    </p>
+
+    <div
+      id="conciliar-list"
+      class="hm-grid-3"
+      style="min-height:240px;">
+      <!-- Conteúdo via JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG DESTAQUE ================= -->
+<section class="hm-section">
+  <div class="hm-container">
+    <h2>Conteúdo Jurídico em Destaque</h2>
+
+    <div class="hm-grid-3">
+      <article class="hm-post-card">
+        <h3>Lei do Superendividamento</h3>
+        <p>Entenda como funciona a Lei nº 14.181/21.</p>
+        <a href="/blog/lei-superendividamento.html">Ler artigo</a>
+      </article>
+
+      <article class="hm-post-card">
+        <h3>Juros Abusivos</h3>
+        <p>Quando a revisão bancária é possível?</p>
+        <a href="/blog/juros-abusivos.html">Ler artigo</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="hm-footer">
+  <div class="hm-container hm-footer-grid">
+
+    <div>
+      <strong>Dr. Adriano Hermida Maia</strong>
+      <p>Advocacia Estratégica</p>
+    </div>
+
+    <div>
+      <p>📍 Atendimento em todo o Brasil</p>
+      <p>📧 contato@hermidamaia.adv.br</p>
+      <p>📞 (51) 99603-2004</p>
+    </div>
+
+    <div>
+      <p>OAB/RS 10748</p>
+      <p>© 2025</p>
+    </div>
+
+  </div>
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+
+<!-- CONCILIAR -->
+<script src="/assets/js/conciliar.js" defer></script>
+
+<!-- SCRIPTS GERAIS -->
+<script src="/assets/js/main.js" defer></script>
+
+<!-- FRESHSALES (DELAY PARA PERFORMANCE) -->
+<script>
+  setTimeout(() => {
+    const s = document.createElement('script');
+    s.src = '/integrations/freshsales.js';
+    s.defer = true;
+    document.body.appendChild(s);
+  }, 4000);
+</script>
+
+</body>
+</html>

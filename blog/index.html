@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog Jurídico | Dr. Adriano Hermida Maia</title>
+
+  <meta name="description" content="Artigos jurídicos sobre superendividamento, revisão bancária, empréstimos, financiamentos e recuperação judicial.">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-XXXXXXX');
+</script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="hm-header">
+  <div class="hm-container hm-header-inner">
+    <a href="/" class="hm-brand">
+      <strong>Dr. Adriano Hermida Maia</strong>
+      <span>Advocacia Estratégica</span>
+    </a>
+    <nav class="hm-nav">
+      <a href="/">Início</a>
+      <a href="/sobre.html">Sobre</a>
+      <a href="/superendividamento.html">Atuação</a>
+      <a href="/contato.html">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO BLOG -->
+<section class="hm-section hm-section-alt" style="padding-top:160px;">
+  <div class="hm-container">
+    <h1>Conteúdo Jurídico Especializado</h1>
+    <p class="hm-section-sub">
+      Artigos técnicos sobre proteção do consumidor, superendividamento e reestruturação financeira.
+    </p>
+  </div>
+</section>
+
+<!-- LISTA DE POSTS -->
+<section class="hm-section">
+  <div class="hm-container">
+    <div id="blog-list" class="hm-grid-3">
+      <!-- POSTS INSERIDOS VIA JS -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="hm-footer">
+  <div class="hm-container hm-footer-grid">
+    <div>
+      <strong>Dr. Adriano Hermida Maia</strong>
+      <p>Advocacia Estratégica</p>
+    </div>
+    <div>
+      <p>📧 contato@hermidamaia.adv.br</p>
+      <p>📞 (51) 99603-2004</p>
+    </div>
+  </div>
+</footer>
+
+<!-- SCRIPT BLOG -->
+<script src="/blog/posts.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById('blog-list');
+
+  posts.forEach(post => {
+    const article = document.createElement('article');
+    article.className = 'hm-post-card';
+    article.innerHTML = `
+      <h3>${post.titulo}</h3>
+      <p>${post.resumo}</p>
+      <a href="${post.url}">Ler artigo</a>
+    `;
+    container.appendChild(article);
+  });
+});
+</script>
+
+</body>
+</html>
